@@ -1,0 +1,95 @@
+.container {
+    width: 90%;
+    margin-left: 5%;
+    text-align: left;
+}
+.title {
+    text-align: center;
+    color: firebrick;
+}
+.task-wrapper {
+    border-bottom: 4px double yellowgreen;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+h2 {
+    color: coral;
+}
+hr {
+    width: 20%;
+    display: inline-block;
+    text-align: left;
+}
+table {
+    border: 1px solid grey;
+    margin-bottom: 15px;
+    width: 100%;
+}
+table tr {
+    height: 40px;
+}
+
+table th {
+    text-align: center;
+}
+
+table td {
+    min-width: 12%;
+    text-align: center;
+}
+
+.order__title {
+    text-align: center;
+}
+
+.order__date {
+    text-align: right;
+}
+
+.order__shipping-info {
+    text-align: right;
+    font-size: 15px;
+    margin: 10px 0 5px;
+}
+
+.order__shipping-info strong {
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.order__notes {
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.order table {
+    width: 85%;
+}
+.order table tr:first-child {
+    height: 30px;
+}
+
+.order table td {
+    text-align: center;
+}
+
+.order__billing-info {
+    text-align: right;
+    font-size: 14px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.67);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.overlay #success {
+    display: block;
+    background: #ffffff;
+}
