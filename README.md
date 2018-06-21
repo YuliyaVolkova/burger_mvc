@@ -66,8 +66,10 @@ URL. Информацию об URL запишите в readme.md в проект
 # install dependencies
 composer install
 ```
-Admin panel. Enter URL: the/path/to/<host_name>/admin in any browser.
+Admin panel. 
 =============
+
+Enter URL: the/path/to/<host_name>/admin in any browser.
 
 
 The Database Structure
@@ -96,4 +98,5 @@ to: /path/to/<host_name>/.env
     ...
     ...
 ...
+
 Note that the DocumentRoot setting specifies the public subdirectory of our project.
