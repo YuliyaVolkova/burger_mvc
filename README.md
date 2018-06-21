@@ -66,7 +66,7 @@ URL. Информацию об URL запишите в readme.md в проект
 # install dependencies
 composer install
 ```
-Admin panel. 
+Admin panel
 =============
 
 Enter URL: the/path/to/<host_name>/admin in any browser.
