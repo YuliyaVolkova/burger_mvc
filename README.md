@@ -66,22 +66,25 @@ URL. Информацию об URL запишите в readme.md в проект
 # install dependencies
 composer install
 ```
+Admin panel. Enter URL: the/path/to/<host_name>/admin in any browser.
+=============
+
 
 The Database Structure
 ======================
 
 Before use application, need to first create a database based on the 
-information from directory: 
-/path/to/<host_name>database\migration\...
+information from subdirectory: 
+/path/to/<host_name>database/migration/...
 
 Configuration
 =============
 
-Need to configure application. Update to the configuration file:
+Need to configure application. Update and rename to the configuration file from:
 
-/path/to/<host_name>/.env.example 
+/path/to/<host_name>/.env.example  
 
-and rename to: /path/to/<host_name>/.env
+to: /path/to/<host_name>/.env
 
 ...
 
@@ -93,3 +96,4 @@ and rename to: /path/to/<host_name>/.env
     ...
     ...
 ...
+Note that the DocumentRoot setting specifies the public subdirectory of our project.
