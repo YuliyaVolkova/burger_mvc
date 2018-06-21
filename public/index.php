@@ -11,4 +11,3 @@ try {
 } catch (Exception $e) {
     require APPLICATION_PATH . 'Views/Errors/404.php';
 }
-

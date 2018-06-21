@@ -14,6 +14,7 @@ class Admin extends MainController
         $orders = new Orders;
         $data['users'] = $users->getAllUsers();
         $data['orders'] = $orders->getAllOrders();
-        $this->view->render('admin', $data);
+        $this->view->twigLoad('admin', $data);  //  рендерим Twig template
+        //$this->view->render('admin', $data); //   при рендеринге в PHP template
     }
 }
