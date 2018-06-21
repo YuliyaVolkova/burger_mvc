@@ -1,4 +1,4 @@
-##PHP: "Реализация MVC на примере Бургерной и работа со сторонними библиотеками"
+####PHP: "Реализация MVC на примере Бургерной и работа со сторонними библиотеками"
 ================================================================================
 
 *Выполнила*:  Волкова Юлия
@@ -84,15 +84,14 @@ Need to configure application. Update to the configuration file:
 and rename to: /path/to/<host_name>/.env
 
 ...
-	DB_HOST_NAME= '<host>', // What host to connect to, defaults to localhost/
-	'dbname' => '<dbname>', // The name of the database to user.
-	'username' => '<username>', // Connect to the database as this username.
-	'password' => '<password>', // Password associated with the username.
-	'charset' => 'utf8' // Sets the client character set.
 	DB_HOST_NAME=<localhost>    // What host to connect to, defaults to localhost/
+	
     DB=<dbname> // The name of the database to user.
+    
     DB_USER_NAME=<username> //  Connect to the database as this username.
+    
     DB_PASSWORD=<password>  //  Password associated with the username.
+    
     ...
     ...
     ...
